@@ -1,0 +1,142 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    transition-duration: 0.5s;
+    /* width: 100%; */
+}
+
+header {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#007BFF ;
+    color: #fff;
+    padding: 0 0 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* max-width: 400px; */
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.15s
+}
+
+button:hover {
+    background-color: #007BFF;
+    box-shadow: 2px 2px 4px #014b6d;
+}
+
+select, input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+select{
+    transition-duration: 0.15s;
+    text-align: center;
+}
+
+select:hover{
+    box-shadow: 2px 2px 4px #333 ;
+}
+
+#result {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #014b6d;
+    /* padding: px 0; */
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+main section{
+    width: 100%;
+    height: 350px;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#inputContainer button{
+    width: 350px;
+    margin-top: 10px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#007BFF,#034072) ;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer div{
+    /* max-height: 75px; */
+    max-width: 600px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+
+footer div h1,p{
+    margin: 0%;
+}
+
+footer div p a{
+    color: #fff;
+    /* text-decoration: none; */
+}
